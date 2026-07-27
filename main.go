@@ -397,7 +397,7 @@ func main() {
 	fmt.Println("=== Conversor Bitcoin Keys ===")
 	fmt.Println("1 - WIF → Hex")
 	fmt.Println("2 - Hex → WIF")
-	fmt.Println("3 - Endereço (P2PKH/P2SH) → RIPEMD-160")
+	fmt.Println("3 - Endereço BIP44 (1...) → RIPEMD-160")
 	fmt.Println("4 - Endereço BIP84 (bc1q...) → RIPEMD-160")
 	fmt.Print("Escolha a função (1, 2, 3 ou 4): ")
 
